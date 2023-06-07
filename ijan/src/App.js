@@ -1,9 +1,10 @@
+import Home from "./Views/Home";
 
-import House from "./Pages/House.jsx";
+
 function App() {
   return (
     <div>
-      <House />
+      <Home />
     </div>
   );
 }
