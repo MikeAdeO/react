@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div>
         <UserDetails  user={user_2}/>
-        <Info username="James" location="Lagos"  accomodation="Hpouses" />
+        <Info username="James" location="Lagos"  accomodation="Houses" />
     </div>
   )
 }
