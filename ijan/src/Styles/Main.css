@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero__ijan{
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(../images/ogun.PNG);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ijan__main__service{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ijan__main__service__item{
+    background-color: rgb(19, 2, 2);
+    color: white;
+    width: 25%;
+    height: 400px;
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    background-color: brown;
+}
+

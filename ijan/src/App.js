@@ -1,6 +1,5 @@
-import Home from "./Views/Home";
-
-
+import Home from "./Pages/Home";
+import "./Styles/Main.css";
 function App() {
   return (
     <div>
