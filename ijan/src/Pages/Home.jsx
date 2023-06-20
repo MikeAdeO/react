@@ -4,6 +4,7 @@ import Hero from '../Features/Hero.jsx';
 import Main from '../Features/Main.jsx';
 import Footer from '../Features/Footer.jsx';
 import Table from '../Features/Sections/Table.jsx';
+import Products from '../Features/Sections/Products.jsx';
 const Home = () => {
   return (
     <div>
@@ -11,7 +12,8 @@ const Home = () => {
         <Hero />
         <Main />
         <Footer /> */}
-        <Table />
+        {/* <Table /> */}
+        <Products />
     </div>
   )
 }

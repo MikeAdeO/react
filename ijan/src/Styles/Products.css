@@ -1,0 +1,30 @@
+.product__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:center;
+    align-items: center;
+    /* width:100%; */
+   
+}
+
+.product__sub__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  width: 25%;
+  /* border:1px solid black; */
+}
+
+.product__image{
+    width: 50%;
+}
+
+.product__text__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
