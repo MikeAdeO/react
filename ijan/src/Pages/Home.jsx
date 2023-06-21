@@ -5,6 +5,7 @@ import Main from '../Features/Main.jsx';
 import Footer from '../Features/Footer.jsx';
 import Table from '../Features/Sections/Table.jsx';
 import Products from '../Features/Sections/Products.jsx';
+import APIS from '../Features/Sections/APIS.jsx';
 const Home = () => {
   return (
     <div>
@@ -13,7 +14,8 @@ const Home = () => {
         <Main />
         <Footer /> */}
         {/* <Table /> */}
-        <Products />
+        {/* <Products /> */}
+        <APIS />
     </div>
   )
 }
