@@ -6,6 +6,9 @@ import Footer from '../Features/Footer.jsx';
 import Table from '../Features/Sections/Table.jsx';
 import Products from '../Features/Sections/Products.jsx';
 import APIS from '../Features/Sections/APIS.jsx';
+import Form from '../Features/Sections/Form.jsx';
+import Form2 from '../Features/Sections/Form2.jsx';
+import Form3 from '../Features/Sections/Form3.jsx';
 const Home = () => {
   return (
     <div>
@@ -15,7 +18,10 @@ const Home = () => {
         <Footer /> */}
         {/* <Table /> */}
         {/* <Products /> */}
-        <APIS />
+        {/* <APIS /> */}
+        {/* <Form /> */}
+        {/* <Form2 /> */}
+        <Form3 />
     </div>
   )
 }
