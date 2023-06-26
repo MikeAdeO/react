@@ -9,6 +9,7 @@ import APIS from '../Features/Sections/APIS.jsx';
 import Form from '../Features/Sections/Form.jsx';
 import Form2 from '../Features/Sections/Form2.jsx';
 import Form3 from '../Features/Sections/Form3.jsx';
+import Login from '../Features/Sections/Login.jsx';
 const Home = () => {
   return (
     <div>
@@ -21,7 +22,8 @@ const Home = () => {
         {/* <APIS /> */}
         {/* <Form /> */}
         {/* <Form2 /> */}
-        <Form3 />
+        {/* <Form3 /> */}
+        <Login />
     </div>
   )
 }
