@@ -10,6 +10,7 @@ import Form from '../Features/Sections/Form.jsx';
 import Form2 from '../Features/Sections/Form2.jsx';
 import Form3 from '../Features/Sections/Form3.jsx';
 import Login from '../Features/Sections/Login.jsx';
+import User from '../Features/Sections/User.jsx';
 const Home = () => {
   return (
     <div>
@@ -23,7 +24,8 @@ const Home = () => {
         {/* <Form /> */}
         {/* <Form2 /> */}
         {/* <Form3 /> */}
-        <Login />
+        {/* <Login /> */}
+        <User />
     </div>
   )
 }
