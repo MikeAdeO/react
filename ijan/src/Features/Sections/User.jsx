@@ -7,7 +7,7 @@ const [username, setUsername] = useState("Michael");
 
   return (
     <div>
-       <Header user={username}/>
+       {/* <Header user={username}/> */}
        <Service />
 
     </div>
