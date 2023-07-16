@@ -17,6 +17,10 @@ ul{
     /* height: 80px; */
 }
 
+.facebook__logo{
+    width:20px;
+}
+
 .item{
     color: white;
 }
